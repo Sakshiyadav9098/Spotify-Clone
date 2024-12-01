@@ -1,0 +1,263 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+.main {
+    display: flex;
+    height:100vh;
+    padding: 0.5rem;
+}
+.sidevar {
+    background-color: #000;
+    width:340px;
+    border-radius:1em; /*16px*/
+    margin:0.5rem;
+}
+.main-content {
+    background-color: #121212;
+    flex:1;
+    border-radius:1em;
+    overflow: auto;
+}
+.music-player {
+    background-color: #000;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height:72px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.nav {
+    background-color: #121212;
+    border-radius:1em;
+    height:100px;
+    padding:0.5rem 0.75rem;
+}
+.nav-option {
+    line-height:2.5rem;
+    opacity:0.7;
+    padding:10px 5px;
+}
+.nav-option:hover {
+    opacity:1;
+}
+.nav-option i {
+    font-size: 1.25rem;
+}
+.nav-option a {
+    font-size: 1rem;
+    margin:5px;
+}
+.library {
+    background-color: #121212;
+    height:500px;
+    padding-top: 20px;
+    margin-top: 10px;
+    border-radius: 1rem;
+}
+.playlist {
+    background-color: #232323;
+    height: 150px;
+    border-radius: 1rem;
+    padding:1px 20px;
+    margin-top: 30px;
+}
+.podcast {
+    background-color: #232323;
+    height: 160px;
+    border-radius: 1rem;
+    padding:1px 20px;
+    margin-top: 20px;
+}
+button {
+    border-radius: 50px;
+    height: 32px;
+    width:135px;
+    text-align: center;
+    font-weight: 700;
+    border:none;
+    background-color: #fff;
+}
+img {
+    height:20px;
+    padding:1px 10px;
+}
+#options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon i {
+    padding-right: 30px;
+    font-size:1.5rem;
+    opacity: 0.7;
+}
+i:hover {
+    opacity: 1;
+}
+.sticky-nav {
+    position:sticky;
+    top:0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:1rem 0 1rem 0;
+}
+.one {
+    padding:1rem;
+    opacity:0.7;
+}
+.one:hover {
+    opacity:1;
+}
+.two div{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-right:2rem;
+    margin-right:3rem;
+}
+.install {
+    background-color: #000;
+    color: #fff;
+}
+@media (max-width:1000px) {
+    .hide {
+        display:none;
+    }
+}
+.card1 {
+    height:300px;
+    width:220px;
+    background-color: #232323;
+}
+.card1 img {
+    height:180px;
+    width:180px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.card2 {
+    height:300px;
+    width:220px;
+    background-color: #232323;
+}
+.card2 img {
+    height:180px;
+    width:180px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.card3 {
+    height:300px;
+    width:220px;
+    background-color: #232323;
+}
+.card3 img {
+    height:180px;
+    width:180px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.card4 {
+    height:300px;
+    width:220px;
+    background-color: #232323;
+}
+.card4 img {
+    height:180px;
+    width:180px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.cards{
+    display: flex;
+}
+.cards div {
+    margin:20px;
+}
+.card5 {
+    height:300px;
+    width:220px;
+    background-color: #232323;
+}
+.card5 img {
+    height:180px;
+    width:180px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.card6 {
+    height:300px;
+    width:220px;
+    background-color: #232323;
+}
+.card6 img {
+    height:180px;
+    width:180px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.footer {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.line {
+    width:90%;
+    height:50%;
+    border-top:1px solid white;
+    opacity:0.5;
+
+}
+.leftside {
+    display: flex;
+    width:25%;
+}
+.leftside img {
+    height:60px;
+    width:60px;
+    padding:4px 4px;
+}
+.leftside title{
+    display:flex;
+    font-weight: lighter;
+    text-align: center;
+}
+.leftside p {
+    font-size: small;
+}
+.leftside i {
+    padding:25px 15px;
+}
+.music-player{
+    display: flex;
+}
+.middleside {
+    width:50%;
+   
+}
+.middleside div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middleside img {
+    opacity:0.7;
+}
+.progress-bar {
+    width:70%;
+    cursor: pointer;
+}
+.rightside {
+    width:25%;
+    
+}
