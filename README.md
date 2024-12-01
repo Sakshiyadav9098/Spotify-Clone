@@ -6,7 +6,7 @@ HTML
 CSS
 Bootstrap
 
-# What I Learned 🧑
+# What I Learned 
 How to use Bootstrap for responsive layouts.
 Creating a navigation bar and cards.
 Styling with CSS to make the design look good.
